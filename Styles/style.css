@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+
+}
+
+body{
+    background: linear-gradient(to bottom, hsl(207, 15%, 61%), hsl(192, 17%, 94%)) fixed;
+}
+
+header{
+    background-color: hsla(0, 0%, 0%, 0.7);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#card{
+    margin: 2.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+::placeholder{
+    color: hsla(0, 0%, 90%, 0.8);
+}
+
+#taskTitle{
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    width: 50%;
+    padding: 1rem;
+
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+#taskInfo{
+    margin-bottom: 0.5rem;
+    height: 10rem;
+    width: 100%;
+    padding: 1rem;
+    resize: none;
+
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+#addBtn{
+    border: white;
+    background-color: hsl(208, 70%, 75%);
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+#addBtn:hover{
+    background-color: hsl(208, 70%, 70%);
+}
+
+#addBtn:active{
+    background-color: hsl(208, 70%, 65%);
+}
+
+#items{
+    display: grid;
+}
+
+li{
+    
+    list-style: none;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    color: white;
+    margin: 0.75rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+

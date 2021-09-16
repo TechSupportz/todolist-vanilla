@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>To Do List</title>
 		<link rel="stylesheet" href="../Styles/style.css" />
-		<script src="../Scripts/script.js"></script>
+		
 	</head>
 	<body>
 		<header>
@@ -22,21 +22,13 @@
 				<div class="taskInput">
 					<textarea id="taskInfo" placeholder="Task"></textarea>
 				</div>
+
+				<input id="addBtn" type="submit" value="bruh" />
 			</form>
-			<br/>
-			<div class="flexCenter">
-				<input id="addBtn" class="btn" type="submit" value="Add Task"></input>
-			</div>
 		</div>
 
-		<ol id="items">
-			<li>Test</li>
-			<li>Test</li>
-			<li>Test</li>
-			<li>Test</li>
-			<li>Test</li>
-			<li>Test</li>
-			<li>Test</li>
-		</ol>
+		<ul id="taskList"></ul>
+
+		<script src="../Scripts/script.js"></script>
 	</body>
 </html>
